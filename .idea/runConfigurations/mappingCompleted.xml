@@ -1,0 +1,17 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="mappingCompleted" type="Application" factoryName="Application">
+    <option name="ALTERNATIVE_JRE_PATH" value="openjdk-21" />
+    <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+    <envs>
+      <env name="db_password" value="2908" />
+      <env name="db_url" value="jdbc:postgresql://localhost:5432/postgres" />
+      <env name="db_username" value="postgres" />
+    </envs>
+    <option name="MAIN_CLASS_NAME" value="multipletable.mapping.MappingApplication" />
+    <module name="mappingCompleted" />
+    <option name="PROGRAM_PARAMETERS" value="$MAVEN_REPOSITORY$" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
